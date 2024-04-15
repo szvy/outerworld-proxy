@@ -3,14 +3,14 @@
    <head>
       <script async src="https://arc.io/widget.min.js#L1SfLEWE"></script>
       <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VHVNHMYGN3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VHVNHMYGN3');
-</script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-VHVNHMYGN3"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'G-VHVNHMYGN3');
+      </script>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
       <link rel="stylesheet" href="index.css">
@@ -26,15 +26,18 @@
       <div id="content">
          <h1>Outerworld Proxy</h1>
 
-         <form id="uv-form"">
+         <form id="uv-form">
             <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
             <input id="uv-address" type="text" placeholder="Search Google or type an URL" class="form__input"/>
-          </form>
-          <div class="desc left-margin">
+         </form>
+         <div class="desc left-margin">
             <p id="uv-error"></p>
             <pre id="uv-error-code"></pre>
-          </div>
+         </div>
          <a href="https://discord.gg/NZeSWryUV6" target="_blank" class="fa-brands fa-discord"></a>
+
+         <!-- Button for going to school.html -->
+         <button onclick="window.location.href = 'school.html';" class="button">Games</button>
       </div>
       <script src="uv/uv.bundle.js" defer></script>
       <script src="uv/uv.config.js" defer></script>
