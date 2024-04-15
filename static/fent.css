@@ -1,0 +1,81 @@
+/* Custom CSS for games page */
+body {
+  background-color: #1a1a1a;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#header {
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+}
+
+#header img {
+  max-width: 400px; /* Ensures the image doesn't exceed the container */
+  height: auto;
+}
+
+#content {
+  text-align: center;
+  padding: 40px;
+}
+
+#content h1 {
+  font-size: 100px;
+  color: #fff;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center;
+  margin-top: 40px;
+}
+
+.game-container img {
+  max-width: 200px; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.game-description {
+  text-align: center;
+  max-width: 400px; /* Adjust the width as needed */
+}
+
+.game-description h2 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.game-description p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.game-description a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.game-description a:hover {
+  background-color: #555;
+}
+
+#footer {
+  border-top: 1px solid #ccc;
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}

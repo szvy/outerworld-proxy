@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <script async src="https://arc.io/widget.min.js#L1SfLEWE"></script>
-      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VHVNHMYGN3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VHVNHMYGN3');
-</script>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-      <link rel="stylesheet" href="index.css">
+      <link rel="stylesheet" href="fent.css">
       <link rel="shortcut icon" type="image/jpg" href="~/favicon.ico"/>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
    </head>
    <body>
       <div id="header">
-         <img src="logo.gif" alt="Logo">
+         <img src="https://outerworld-proxy.pages.dev/static/logo.gif" alt="Logo">
       </div>
       <div id="content">
-         <h1>Outerworld Proxy</h1>
+         <h1>Outerworld Games</h1>
+        
+         <div class="game-container">
+            <img src="https://img.gamepix.com/games/1v1-lol/icon/1v1-lol.png" alt="1v1lol">
+            <div class="game-description">
+               <h2>1v1.lol</h2>
+               <p>Join over 80 million players in 1V1.LOL Champions, a Battle Royale sensation where you'll dive into heart-pounding 3rd person hero-shooting action! Engage in lightning-fast battles, celebrate the thrill of a multiplayer game.</p>
+               <a href="math/1v1lol.html">Play Now</a>
+            </div>
+         </div>
 
-         <form id="uv-form"">
-            <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
-            <input id="uv-address" type="text" placeholder="Search Google or type an URL" class="form__input"/>
-          </form>
-          <div class="desc left-margin">
-            <p id="uv-error"></p>
-            <pre id="uv-error-code"></pre>
-          </div>
-         <a href="https://discord.gg/NZeSWryUV6" target="_blank" class="fa-brands fa-discord"></a>
+        <div class="game-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1200px-2048_logo.svg.png" alt="2048">
+            <div class="game-description">
+               <h2>2048</h2>
+               <p>2048 is the classic 2048 puzzle game. Slide the tiles and merge them to reach 2048 tile. Start with 2 and reach 16, 32, 128, 512, 1024 and finally 2048.</p>
+               <a href="math/2048.html">Play Now</a>
+            </div>
+         </div>
+
+        <div class="game-container">
+            <img src="https://www.webwise.ie/wp-content/uploads/2020/12/IMG1207.jpg" alt="Among Us">
+            <div class="game-description">
+               <h2>Among Us</h2>
+               <p>Play online or over local WiFi with 4-15 players as you attempt to prep your spaceship for departure, but beware as one will be an impostor bent on killing everyone!</p>
+               <a href="math/amongus.html">Play Now</a>
+            </div>
+         </div>
+
+
+        
       </div>
-      <script src="uv/uv.bundle.js" defer></script>
-      <script src="uv/uv.config.js" defer></script>
-      <script src="register-sw.js" defer></script>
-      <script src="search.js" defer></script>
-      <script src="index.js" defer></script>
-      <script src="error.js" defer></script>
-      <div id="footer">
-      </div>
+      
    </body>
 </html>
