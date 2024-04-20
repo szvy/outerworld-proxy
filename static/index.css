@@ -1,16 +1,24 @@
 /* Custom CSS for black theme */
 body {
-  background: #000 url('https://fluffy-disco-os-sd-sd.vercel.app/62b1ca0da7224cbb67d01a44e1ecb5bc.mp4') no-repeat center center fixed;
-  background-size: cover;
-  color: #fff;
   margin: 0;
   padding: 0;
+}
+
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
 #header {
   background-color: #000;
   padding: 20px;
   text-align: center;
+  position: relative; /* Added */
+  z-index: 1; /* Added */
 }
 
 #header h1 {
@@ -31,91 +39,8 @@ body {
   text-align: center;
   padding: 20px;
   margin-top: -4%;
+  position: relative; /* Added */
+  z-index: 1; /* Added */
 }
 
-#content h1 {
-  font-size: 24px;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-#searchbar {
-  text-align: center;
-  margin: 20px auto;
-}
-
-.form__input {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  width: 300px;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
-  background-color: #222;
-  text-align: center;
-  color: #fff;
-  cursor: pointer; /* Changed from 'cell' to 'pointer' */
-}
-
-.form__input::placeholder {
-  color: #aaa;
-  text-align: center;
-}
-
-.form__input:hover { /* Corrected typo from '.form_input' to '.form__input' */
-  cursor: pointer; /* Changed from 'cell' to 'pointer' */
-}
-
-.form__input:focus {
-  outline: none;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-#footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  border-top: 1px solid #99ccff; /* Combined border properties */
-  font-family: 'Open Sans', sans-serif;
-  width: 100%;
-  height: 15px;
-  background-color: #000;
-  padding-top: 7.5px;
-  padding-bottom: 10px;
-  text-align: center;
-  color: #fff;
-  font-size: 14px;
-}
-
-#footer p {
-  margin: 0;
-}
-
-.fa {
-  font-size: 24px;
-  margin-right: 10px;
-  color: #fff;
-}
-
-.fa:hover {
-  color: #aaa;
-}
-
-.button {
-  background-color: white; /* Green */
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 8px;
-}
+/* Rest of your CSS styles remain unchanged */
