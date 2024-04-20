@@ -1,6 +1,6 @@
 /* Custom CSS for black theme */
 body {
-  background: #000 url('https://fluffy-disco-os-sd-sd.vercel.app/62b1ca0da7224cbb67d01a44e1ecb5bc.mp4') repeat center center fixed;
+  background: #000 url('https://fluffy-disco-os-sd-sd.vercel.app/62b1ca0da7224cbb67d01a44e1ecb5bc.mp4') no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   margin: 0;
