@@ -43,4 +43,89 @@ body {
   z-index: 1; /* Added */
 }
 
-/* Rest of your CSS styles remain unchanged */
+#content h1 {
+  font-size: 24px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#searchbar {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.form__input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 300px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  background-color: #222;
+  text-align: center;
+  color: #fff;
+  cursor: pointer; /* Changed from 'cell' to 'pointer' */
+}
+
+.form__input::placeholder {
+  color: #aaa;
+  text-align: center;
+}
+
+.form__input:hover { /* Corrected typo from '.form_input' to '.form__input' */
+  cursor: pointer; /* Changed from 'cell' to 'pointer' */
+}
+
+.form__input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  border-top: 1px solid #99ccff; /* Combined border properties */
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 15px;
+  background-color: #000;
+  padding-top: 7.5px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+#footer p {
+  margin: 0;
+}
+
+.fa {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.fa:hover {
+  color: #aaa;
+}
+
+.button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
